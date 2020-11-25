@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/geAllUsersButton"
+            style="@style/MainButton"
+            android:text="Get All Users" />
+
+        <Button
+            android:id="@+id/getUsersByZipcodeButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Get Users By Zipcode" />
+
+        <Button
+            android:id="@+id/getResourcesByUserIdButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Get Resources By User ID" />
+
+        <Button
+            android:id="@+id/getAllNotesButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Get All Notes (Flow)" />
+
+        <Button
+            android:id="@+id/addNoteButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Add Note" />
+
+        <Button
+            android:id="@+id/deleteNoteButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Delete Note" />
+
+        <Button
+            android:id="@+id/getLocationButton"
+            style="@style/MainButton"
+            android:layout_marginTop="8dp"
+            android:text="Get Current Location (Flow)" />
+
+    </LinearLayout>
+
+</ScrollView>
